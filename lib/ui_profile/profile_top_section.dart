@@ -23,7 +23,7 @@ class _ProfileTopSectionState extends State<ProfileTopSection> {
               .map((e) => Image.network(
                     e,
                     width: MediaQuery.of(context).size.width,
-                    height: 370.0,
+                    height: 300.0,
                     fit: BoxFit.cover,
                   ))
               .toList(),
